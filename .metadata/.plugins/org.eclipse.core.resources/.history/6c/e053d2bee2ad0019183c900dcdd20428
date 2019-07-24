@@ -1,0 +1,9 @@
+spring.application.name=service
+service.instance.name=serverinstance1
+server.port=8088
+eureka.client.service-url.defaultZone=http://localhost:8761/eureka
+
+#hystrix.command.default.metrics.rollingStats.timeInMilliseconds=5000
+#hystrix.command.default.circuitBreaker.requestVolumeThreshold=5
+#hystrix.command.default.circuitBreaker.errorThresholdPercentage=50
+#hystrix.command.default.circuitBreaker.sleepWindowInMilliseconds=5000

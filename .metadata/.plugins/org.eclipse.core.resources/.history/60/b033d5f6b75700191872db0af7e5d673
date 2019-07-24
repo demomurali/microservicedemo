@@ -1,0 +1,5 @@
+package io.schultz.dustin;
+
+public class AuthorizationFilter {
+
+}
